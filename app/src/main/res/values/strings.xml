@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">APF Demo</string>
+
+    <!-- Screen Names-->
+    <string name="category_dashboard">Dashboard</string>
+    <string name="category_reports">Reports</string>
+    <string name="category_fa">FA</string>
+    <string name="category_cpm">CPM</string>
+    <string name="category_bundlepatch">Bundle Patch</string>
+    <string name="category_bachrol">Bachrol</string>
+    <string name="db_one">DB First Activity</string>
+    <string name="db_second">DB Second Activity</string>
+    <string name="db_third">DB Third Activity</string>
+
+    <!-- Text to explain the page functionality-->
+    <string name="fa_text">This page is for FA</string>
+    <string name="cpm_text">This page is for CPM</string>
+    <string name="db_first_text">This page is for Dashboard First Activity</string>
+    <string name="db_second_text">This page is for Dashboard Second Activity</string>
+    <string name="db_third_text">This page is for Dashboard Third Activity</string>
+</resources>

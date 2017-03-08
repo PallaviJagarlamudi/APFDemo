@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.apfdemo.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/main_layout_sub1"
+        style="@style/MainSubLayoutStyle">
+
+        <ImageView
+            android:id="@+id/item1"
+            style="@style/MainItemStyle"
+            app:srcCompat="@drawable/radio"/>
+
+        <ImageView
+            android:id="@+id/item2"
+            style="@style/MainItemStyle"
+            app:srcCompat="@drawable/podcast"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout_sub2"
+        style="@style/MainSubLayoutStyle">
+
+        <ImageView
+            android:id="@+id/item3"
+            style="@style/MainItemStyle"
+            app:srcCompat="@drawable/podcast"/>
+
+        <ImageView
+            android:id="@+id/item4"
+            style="@style/MainItemStyle"
+            app:srcCompat="@drawable/radio"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout_sub3"
+        style="@style/MainSubLayoutStyle">
+
+        <ImageView
+            android:id="@+id/item5"
+            style="@style/MainItemStyle"
+            app:srcCompat="@drawable/radio"/>
+
+        <ImageView
+            android:id="@+id/item6"
+            style="@style/MainItemStyle"
+            app:srcCompat="@drawable/podcast"/>
+
+    </LinearLayout>
+
+</LinearLayout>
